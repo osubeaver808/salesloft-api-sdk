@@ -9,6 +9,7 @@
 
 
 using Polly;
+using Polly.Wrap;
 using RestSharp;
 
 namespace DawsonSoft.Salesloft.Api.Core.Client
@@ -21,11 +22,11 @@ namespace DawsonSoft.Salesloft.Api.Core.Client
         /// <summary>
         /// Retry policy
         /// </summary>
-        public static Policy<RestResponse> RetryPolicy { get; set; }
+        public static  PolicyWrap<RestResponse> RetryPolicy { get; set; }
 
         /// <summary>
         /// Async retry policy
         /// </summary>
-        public static AsyncPolicy<RestResponse> AsyncRetryPolicy { get; set; }
+        public static AsyncPolicyWrap<RestResponse> AsyncRetryPolicy { get; set; }
     }
 }
