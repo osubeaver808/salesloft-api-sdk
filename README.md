@@ -1,7 +1,7 @@
 # SalesLoft API Client SDK
 
 ## Overview
-This repository contains the SalesLoft API Client SDK for C#, which is auto-generated using the open API spec developed using the Dawsonsoft ApiForge tool and OpenAPI Generator. This SDK provides a convenient way to interact with the SalesLoft API using C#.
+This repository contains the SalesLoft API Client SDK for C#, which is auto-generated using the open API spec developed using the DawsonSoft(www.dawsonsoft.com) ApiForge tool and OpenAPI Generator. This SDK provides a convenient way to interact with the SalesLoft API using C#.
 
 ## Features
 - Auto-generated client based on the **SalesLoft API**.
